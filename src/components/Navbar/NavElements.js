@@ -5,6 +5,8 @@ export const Nav = styled.nav`
     display: flex;
     justify-content: space-between;
     padding: 0 3rem;
+    position: relative;
+    z-index: 1;
 `
 
 export const NavLogo = styled(Link)`
